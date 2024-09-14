@@ -1,0 +1,16 @@
+button {
+    padding: 15px 32px;
+    font-size: 150%;
+}
+
+p {
+    font-size: 200%;
+}
+
+.OP {
+    background-color: red;
+}
+
+#equal {
+    background-color: green;
+}
