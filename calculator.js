@@ -47,7 +47,13 @@ function Operate(num1, num2, operator)
 
 buttons.forEach((button) => {
     button.addEventListener("click", () => { 
-        if (x == 0 && button.className == "NUM")
+        if (button.className == "DEL")
+        {
+            x = 0;
+            op = "";
+            y = 0;
+        }
+        else if (x == 0 && button.className == "NUM")
         {
             x = Number(button.id);
         }
