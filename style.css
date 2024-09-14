@@ -1,6 +1,7 @@
 button {
-    padding: 15px 32px;
+    padding: 80px 80px;
     font-size: 150%;
+    
 }
 
 p {
@@ -8,9 +9,13 @@ p {
 }
 
 .OP {
-    background-color: red;
+    background-color: orange;
 }
 
 #equal {
     background-color: green;
+}
+
+.DEL {
+    background-color: red;
 }
