@@ -61,7 +61,7 @@ buttons.forEach((button) => {
         {
             x = x * 10 + Number(button.id);
         }
-        else if(x != 0 && op == "" && button.className == "OP")
+        else if(x != 0 && op == "" && button.className == "OP" && button.id != "equal")
         {
             op = button.textContent;
         }
